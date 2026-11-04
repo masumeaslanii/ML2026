@@ -61,9 +61,10 @@ To run the code locally:
 
 ## References and Learning Resources
 
-- *Understanding Deep Learning* by Simon J. D. Prince.
-- Official code and supplementary materials associated with the book.
 - Deep learning course materials and classroom examples.
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/) by Simon J. D. Prince.
+- [Official GitHub Repository](https://github.com/udlbook/udlbook): Source code and supplementary materials.
+    My work includes reviewing the provided implementations, documenting code functionality, and completing selected programming exercises(TODO sections).
 
 ## Updates
 
