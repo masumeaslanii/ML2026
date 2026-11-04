@@ -1,8 +1,8 @@
 # Deep Learning with PyTorch
 
-This repository contains notebooks, code examples, and learning materials focused on deep learning and practical implementation with Python and PyTorch.
+This repository contains notebooks, code implementations, and learning materials focused on deep learning and practical implementation using Python and PyTorch.
 
-The repository is intended to grow over time as new topics and examples are added.
+It serves as a collection of learning notes, code reviews, experiments, and practical exercises developed throughout my study of deep learning.
 
 ## Topics Covered
 
@@ -10,15 +10,31 @@ The repository is intended to grow over time as new topics and examples are adde
 - Neural network fundamentals
 - Convolutional Neural Networks (CNNs)
 - Model training and evaluation
-- Loss and accuracy metrics
-- Visualizing model performance
-- Practical examples using PyTorch and related libraries
+- Loss functions and performance metrics
+- Model optimization and hyperparameter tuning
+- Data visualization and performance analysis
+- Practical implementations using PyTorch and related libraries
 
 *The topics listed above may expand as the repository develops.*
 
 ## Repository Structure
 
-Learning materials and code examples are organized into files and notebooks. Each notebook may include code, explanations, experiments, and visualizations related to its topic.
+The repository is organized into different sections based on learning resources and practical exercises.
+
+- **Course Materials:** Code examples introduced during deep learning classes, reviewed and supplemented with Markdown explanations and additional notes.
+- **Understanding Deep Learning:** Code reviews and practical implementations based on the book *Understanding Deep Learning*, including completing TODO sections, exploring implementations, and experimenting with the provided code.
+
+Each notebook may include code, theoretical explanations, implementation details, experiments, and visualizations.
+
+## Learning Approach
+
+My approach to learning involves more than simply implementing code:
+
+- Reviewing and understanding existing implementations.
+- Documenting important concepts and code functionality.
+- Completing practical programming exercises.
+- Experimenting with different implementations and configurations.
+- Analyzing model behavior and performance.
 
 ## Requirements
 
@@ -27,6 +43,7 @@ To run the notebooks, you may need:
 - Python
 - PyTorch
 - Matplotlib
+- NumPy
 - Jupyter Notebook or Google Colab
 
 Additional dependencies may be required depending on the notebook.
@@ -42,10 +59,12 @@ To run the code locally:
 3. Open the notebook you want to explore.
 4. Run the cells in order.
 
-## Purpose
+## References and Learning Resources
 
-This repository serves as a growing collection of learning notes and practical implementations for studying deep learning with Python and PyTorch.
+- *Understanding Deep Learning* by Simon J. D. Prince.
+- Official code and supplementary materials associated with the book.
+- Deep learning course materials and classroom examples.
 
-## Contributions and Updates
+## Updates
 
-New notebooks, examples, and topics may be added over time. Check back for updates as the repository grows.
+This repository is continuously updated as I explore new topics, review implementations, and work on additional exercises and experiments.
