@@ -1,7 +1,5 @@
 # Overfitting Mitigation Report: 2D CNN on CIFAR-100
 
-**Masume Aslani** — 40452111001
-
 In Session 6, a 2D CNN was trained on the CIFAR-100 dataset and suffered from overfitting. The goal of this exercise is to fix this problem using several different techniques and to compare their results. All experiments were run on the free Google Colab GPU, so in addition to accuracy, the time cost of each method was also taken into account in the final selection.
 
 ## Baseline Model and Settings
