@@ -58,7 +58,7 @@ Each method was run in a separate notebook with the same baseline settings. In a
 - RandomErasing lowered accuracy compared to ColorJitter alone.
 - ColorJitter was the only method that showed a modest improvement (about 1 point), but it roughly doubled the time cost.
 
-## Stage 2: Combined Model (`final_final.ipynb`)
+## Stage 2: Combined Model (`final.ipynb`)
 
 Based on the individual results, the following were combined:
 
@@ -98,7 +98,7 @@ The architecture was kept exactly the same. The following changes were made to t
 
 ## Comparison
 
-| Metric | Baseline Model | Stage 2 (`final_final`) | Stage 3 (`final_60epochs`) |
+| Metric | Baseline Model | Stage 2 (`final`) | Stage 3 (`final_60epochs`) |
 | --- | --- | --- | --- |
 | Best Val Acc | ~40.3% | 44.82% | **50.90%** |
 | Best epoch | 20 | 38 | 44 |
