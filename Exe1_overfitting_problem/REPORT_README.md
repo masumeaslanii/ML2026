@@ -6,7 +6,7 @@ The work was done in three stages:
 
 1. **Individual experiments:** each technique tested on its own.
 2. **Combined model** (`final.ipynb`): the most useful techniques combined.
-3. **Final model** (`final_60epochs.ipynb`): the training recipe was refined (learning rate, schedule, augmentation), still with the same architecture.
+3. **Final model** (`final_50epochs.ipynb`): the training recipe was refined (learning rate, schedule, augmentation), still with the same architecture.
 
 ## Baseline Model and Settings
 
@@ -71,7 +71,7 @@ Label Smoothing, RandomErasing, and extra Dropout were left out because they had
 
 This model reached **44.82%** validation accuracy (epoch 38). Validation loss kept decreasing until the end of training and Early Stopping was never triggered, because with the gradual decrease of the learning rate the model continued to improve through the final epochs. However, the model was still training slowly (lr=0.001) and relied on a relatively weak regularizer, which motivated the next stage.
 
-## Stage 3: Final Model (`final_60epochs.ipynb`)
+## Stage 3: Final Model (`final_50epochs.ipynb`)
 
 The architecture was kept exactly the same. The following changes were made to the training recipe:
 
@@ -94,11 +94,9 @@ The architecture was kept exactly the same. The following changes were made to t
 
 **Results:** The final model reached **50.90%** validation accuracy at epoch 44, with a validation loss of 73.77. Training took 1106 seconds (about 22 s per epoch). Validation loss decreased almost continuously from about 174 to about 73, and validation accuracy stayed between 49.8% and 50.9% over the last 10 epochs, once the learning rate was close to zero.
 
-**Test accuracy:** [add the test-set accuracy here]
-
 ## Comparison
 
-| Metric | Baseline Model | Stage 2 (`final`) | Stage 3 (`final_60epochs`) |
+| Metric | Baseline Model | Stage 2 (`final`) | Stage 3 (`final_50epochs`) |
 | --- | --- | --- | --- |
 | Best Val Acc | ~40.3% | 44.82% | **50.90%** |
 | Best epoch | 20 | 38 | 44 |
