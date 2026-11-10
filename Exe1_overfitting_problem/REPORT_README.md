@@ -5,7 +5,7 @@ In Session 6, a 2D CNN was trained on the CIFAR-100 dataset and suffered from ov
 The work was done in three stages:
 
 1. **Individual experiments:** each technique tested on its own.
-2. **Combined model** (`final_final.ipynb`): the most useful techniques combined.
+2. **Combined model** (`final.ipynb`): the most useful techniques combined.
 3. **Final model** (`final_60epochs.ipynb`): the training recipe was refined (learning rate, schedule, augmentation), still with the same architecture.
 
 ## Baseline Model and Settings
